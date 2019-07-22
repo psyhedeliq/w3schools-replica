@@ -1,0 +1,16 @@
+extends ../../_component/layout/template
+
+block config
+  -
+    const myTitle = 'Learn to code HTML Elements for beginners';
+    const myDescription = 'An HTML element usually consists of a start tag and an end tag, with the content inserted in between.';
+    const landingPage = 'HTML';
+    const activeLink = '/html/elements';
+
+block content
+  h1=myTitle
+  p=myDescription
+  h2 Example
+
+  h1 Not my first heading.
+  p Not my first paragraph #[br]and we make use of #[span(style='color: blue') the 'break' tag] and #[span(style='color: blue') the 'span' tag].

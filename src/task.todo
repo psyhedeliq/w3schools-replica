@@ -6,16 +6,20 @@
   ✔ create a template for the layout @done (22/07/2019, 13:49:09)
   ✔ extract header, footer and nav into components @done (22/07/2019, 13:55:38)
 ✔ Use javascript variables to pass data through pug files @done (22/07/2019, 14:31:51)
-☐ Refactor header using 'each' loop
-☐ Refactor nav using 'each' loop
+✔ Refactor header using 'each' loop @done (22/07/2019, 15:23:18)
+✔ Refactor nav using 'each' loop @done (22/07/2019, 15:48:10)
 ☐ Create multiple pages
-  ☐ home
-    ☐ html
-      ☐ elements
-      ☐ attributes
-      ☐ headings
-    ☐ css
-      ☐ colors
+  ✔ home @done (22/07/2019, 17:59:25)
+    ✔ html @done (22/07/2019, 17:59:27)
+      ✔ elements @done (22/07/2019, 17:59:28)
+      ✔ attributes @done (22/07/2019, 17:59:28)
+      ✔ headings @done (22/07/2019, 17:59:29)
+    ✔ css @done (22/07/2019, 17:59:30)
+      ✔ colors @done (22/07/2019, 17:59:54)
       ☐ backgrounds
       ☐ borders
     ☐ javascript
+      ☐ comments
+      ☐ variables
+      ☐ operators
+☐ Redeploy and fix the style.css path for github.io pages

@@ -1,0 +1,18 @@
+extends ../../_component/layout/template
+
+block config
+  -
+    const myTitle = 'Learn to code HTML Attributes for beginners';
+    const myDescription = 'Attributes provide additional information about HTML elements.';
+    const landingPage = 'HTML';
+    const activeLink = '/html/attributes';
+
+block content
+  h1=myTitle
+  p=myDescription
+  h2 Example
+  
+  p(title="I'm a tooltip :D") This paragraph has a tooltip.
+  a(href='https://www.youtube.com/codetap') And this link takes you to CodeTap on YouTube.
+  p The next image will have a width of 200 pixels and a height of 100 pixels.
+  img(src='http://lorempixel.com/200/100', width='200', height='100', alt='This shows an image which will have a width of 200 pixels and a height of 100 pixels.')

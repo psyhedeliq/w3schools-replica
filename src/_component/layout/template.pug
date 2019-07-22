@@ -1,10 +1,12 @@
 doctype html
 html
+  - const baseUrl = 'http://localhost:3000';
+  //- - const baseUrl = 'https://psyhedeliq.github.io/w3schools-replica';
   block config
   head
     title=myTitle
     meta(name='description', content=myDescription)
-    link(rel='stylesheet', href='style.css')
+    link(rel='stylesheet', href=`${baseUrl}/style.css`)
   body
     include ../header/header
     article
