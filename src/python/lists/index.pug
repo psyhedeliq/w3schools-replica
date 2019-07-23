@@ -1,0 +1,28 @@
+extends ../../_component/layout/template
+
+block config
+  -
+    const myTitle = 'Learn Lists in Python';
+    const myDescription = 'A list is a collection which is ordered and changeable. In Python lists are written with square brackets.';
+    const landingPage = 'Python';
+    const activeLink = '/python/lists';
+
+block content
+  h1=myTitle
+  p=myDescription
+  h3 Python Collections (Arrays)
+  p There are four collection data types in the Python programming language:
+  ul
+    li List is a collection which is ordered and changeable. Allows duplicate members.
+    li Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+    li Set is a collection which is unordered and unindexed. No duplicate members.
+    li Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
+  h3 List
+  p A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
+  h4 Example
+  p thislist = ["apple", "banana", "cherry"] #[br]#[span(style='color: blue') print](thislist)
+  h3 Access Items
+  p You access the list items by referring to the index number:
+  h4 Example
+  p Print the second item of the list:
+  p thislist = ["apple", "banana", "cherry"] #[br]#[span(style='color: blue') print](thislist[1])

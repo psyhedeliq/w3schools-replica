@@ -1,0 +1,24 @@
+extends ../../_component/layout/template
+
+block config
+  -
+    const myTitle = 'Learn Tuples in Python';
+    const myDescription = 'A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.';
+    const landingPage = 'Python';
+    const activeLink = '/python/tuples';
+
+block content
+  h1=myTitle
+  p=myDescription
+  h3 Tuple
+  p A tuple is a collection which is ordered and #[span(style='font-weight: bold') unchangeable]. In Python tuples are written with round brackets.
+  h4 Example
+  p Create a Tuple:
+  p thistuple = (#[span(style='color: brown') "apple"], #[span(style='color: brown') "banana"], #[span(style='color: brown') "cherry"])
+  p #[span(style='color: blue') print](thistuple)
+  h3 Access Tuple Items
+  p You can access tuple items by referring to the index number, inside square brackets:
+  h4 Example
+  p Return the item in position 1:
+  p thistuple = (#[span(style='color: brown') "apple"], #[span(style='color: brown') "banana"], #[span(style='color: brown') "cherry"])
+  p #[span(style='color: blue') print](thistuple[1])

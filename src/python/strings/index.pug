@@ -1,0 +1,24 @@
+extends ../../_component/layout/template
+
+block config
+  -
+    const myTitle = 'Learn Strings in Python';
+    const myDescription = 'String literals in python are surrounded by either single quotation marks, or double quotation marks.';
+    const landingPage = 'Python';
+    const activeLink = '/python/strings';
+
+block content
+  h1=myTitle
+  p=myDescription
+  h3 String Literals
+  p String literals in python are surrounded by either single quotation marks, or double quotation marks.
+  p #[span(style='color: red') 'hello'] is the same as #[span(style='color: red') "hello"].
+  p You can display a string literal with the #[span(style='color: red') print()] function:
+  h4 Example
+  p #[span(style='color: blue') print]("Hello")
+  p #[span(style='color: blue') print]('Hello')
+  h3 Assign String to a Variable
+  p Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
+  h4 Example
+  p a = #[span(style='color: brown') "Hello"]
+  p #[span(style='color: blue') print](a)
