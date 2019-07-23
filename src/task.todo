@@ -26,8 +26,8 @@
       ✔ delete @done (23/07/2019, 16:34:45)
       ✔ select @done (23/07/2019, 16:34:45)
       ✔ where @done (23/07/2019, 16:34:46)
-    ☐ python
-      ☐ strings
-      ☐ lists
-      ☐ tuples
-☐ Redeploy and fix the style.css path for github.io pages
+    ✔ python @done (23/07/2019, 17:32:03)
+      ✔ strings @done (23/07/2019, 17:32:05)
+      ✔ lists @done (23/07/2019, 17:32:06)
+      ✔ tuples @done (23/07/2019, 17:32:06)
+✔ Redeploy and fix the style.css path for github.io pages @done (23/07/2019, 17:32:07)
