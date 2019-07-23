@@ -1,0 +1,25 @@
+extends ../../_component/layout/template
+
+block config
+  -
+    const myTitle = 'Learn the SQL SELECT Statement';
+    const myDescription = 'The SELECT statement is used to select data from a database.';
+    const landingPage = 'SQL';
+    const activeLink = '/sql/select';
+
+block content
+  h1=myTitle
+  p=myDescription
+  h2 Example
+  h3 The SQL SELECT Statement
+  
+  p The SELECT statement is used to select data from a database.
+  p The data returned is stored in a result table, called the result-set.
+  h3 SELECT Syntax
+  p #[span(style='color: blue') SELECT] column1, column2, ... #[br]#[span(style='color: blue') FROM] table_name;
+  p Here, column1, column2, ... are the field names of the table you want to select data from. If you want to select all the fields available in the table, use the following syntax:
+  p #[span(style='color: blue') SELECT] * #[span(style='color: blue') FROM] table_name;
+  h3 SELECT Column Example
+  p The following SQL statement selects the "CustomerName" and "City" columns from the "Customers" table:
+  p #[span(style='color: blue') SELECT] CustomerName, City #[span(style='color: blue') FROM] Customers;
+   

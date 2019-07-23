@@ -10,9 +10,13 @@ block config
 block content
   h1=myTitle
   p=myDescription
-  h2 JavaScript Comments
+  h2 Examples
+  h3 JavaScript Comments
   p JavaScript comments can be used to explain JavaScript code, and to make it more readable.
-  h2 JavaScript Variables
-  p JavaScript variables are containers for storing data values.
-  h2 JavaScript Operators
-  p An operator performs some operation on single or multiple operands (data value) and produces a result. For example 1 + 2, where + sign is an operator and 1 is left operand and 2 is right operand. + operator adds two numeric values and produces a result which is 3 in this case. We can also concatenate strings and much more.
+  p JavaScript comments can also be used to prevent execution, when testing alternative code.
+  h3 Single Line Comments
+  p Single line comments start with #[span(style='color: red') //].
+  p Any text between #[span(style='color: red') //] and the end of the line will be ignored by JavaScript (will not be executed).
+  h3 Multi-line Comments
+  p Multi-line comments start with #[span(style='color: red') /*] and end with #[span(style='color: red') */].
+  p Any text between #[span(style='color: red') /*] and #[span(style='color: red') */] will be ignored by JavaScript.

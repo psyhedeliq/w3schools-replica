@@ -1,0 +1,24 @@
+extends ../../_component/layout/template
+
+block config
+  -
+    const myTitle = 'Learn the SQL WHERE Clause';
+    const myDescription = 'The WHERE clause is used to extract only those records that fulfill a specified condition.';
+    const landingPage = 'SQL';
+    const activeLink = '/sql/where';
+
+block content
+  h1=myTitle
+  p=myDescription
+  h2 Example
+  h3 The SQL WHERE Clause
+  
+  p The WHERE clause is used to filter records.
+  p The WHERE clause is used to extract only those records that fulfill a specified condition.
+  h3 WHERE Syntax
+  p #[span(style='color: blue') SELECT] column1, column2, ...#[br] #[span(style='color: blue') FROM] table_name #[br]#[span(style='color: blue') WHERE] condition;
+  p #[span(font-weight='bold') Note:] #[span(style='color: red') The WHERE clause is not only used in SELECT statement, it is also used in UPDATE, DELETE statement, etc.!]
+  h3 WHERE Clause Example
+  p The following SQL statement selects all the customers from the country "Mexico", in the "Customers" table:
+  p #[span(style='color: blue') SELECT] * #[span(style='color: blue') FROM] Customers #[br]#[span(style='color: blue') WHERE] Country='Mexico';
+   

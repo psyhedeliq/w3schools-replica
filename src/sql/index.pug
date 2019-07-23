@@ -1,0 +1,18 @@
+extends ../_component/layout/template
+
+block config
+  -
+    const myTitle = 'Learn to code SQL for beginners';
+    const myDescription = 'SQL is a standard language for storing, manipulating and retrieving data in databases.';
+    const landingPage = 'SQL';
+    const activeLink = '';
+
+block content
+  h1=myTitle
+  p=myDescription
+  h2 SQL SELECT Statement
+  p The SELECT statement is used to select data from a database.
+  h2 SQL WHERE Clause
+  p The WHERE clause is used to filter records.
+  h2 SQL DELETE Statement
+  p The DELETE statement is used to delete existing records in a table.
